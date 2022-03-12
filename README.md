@@ -1,18 +1,23 @@
-# Membuat Aplikasi Laravel Sederhana Dengan Autentikasi
+# Aplikasi Laravel Sederhana Dengan Autentikasi
 
-Ini adalah contoh aplikasi Laravel sederhana dengan autentikasi (register, login, email verifikasi, lupa password) menggunakan bootstrap 5.
+Ini adalah contoh aplikasi Laravel sederhana dengan autentikasi (register, login, verifikasi email, lupa password) menggunakan bootstrap 5.
 
-**Persiapan:** PHP, Composer
+**Persiapan:**
+
+-   Webserver (xampp)
+-   Git Bash
+-   Composer
+-   Akun pengiriman email (mailtrap, mailgun dsb)
 
 ## Mulai
 
-Clone project ini menggunakan cmd:
+Arahkan direktori dimana anda akan menyimpan folder project, buka git bash lalu clone project ini menggunakan perintah:
 
 ```bash
 git clone https://github.com/Jalal-id/simpleauthlaravel.git
 ```
 
-Masuk direktori project
+Masuk direktori project:
 
 ```bash
 cd simpleauthlaravel
@@ -64,7 +69,7 @@ php artisan serve
 
 Buka http://localhost:8000 atau http://127.0.0.1:8000 pada browser favorit anda.
 
-## Routes
+## Routes yang tersedia
 
 -   `/home`
 -   `/login`
@@ -72,3 +77,7 @@ Buka http://localhost:8000 atau http://127.0.0.1:8000 pada browser favorit anda.
 -   `/password/reset`
 -   `/verify-email/{id user}/{token}`
 -   `/email/verify`
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
